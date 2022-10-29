@@ -1,0 +1,1 @@
+export { RositroClass } from './rositroClass'
