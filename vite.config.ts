@@ -11,5 +11,12 @@ export default defineConfig({
     alias: {
       '@': resolve(__dirname, 'src')
     }
+  },
+  build: {
+    lib: {
+      entry: './src/main.ts',
+      name: 'Rositro',
+      formats: ['es', 'umd']
+    }
   }
 })
