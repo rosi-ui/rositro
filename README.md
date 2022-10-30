@@ -1,5 +1,9 @@
 #  Rositro
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rosi-ui/rositro/dev-2212/doc/rositro.gif" width="600">
+</p>
+
 ##  **🔧 Usage**
 
 ```typescript
@@ -8,8 +12,6 @@ import 'rositro.css'
 
 Rositro().start()
 ```
-
-
 
 `data-step` 你所期望的步骤
 
