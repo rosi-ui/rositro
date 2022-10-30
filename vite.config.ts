@@ -14,9 +14,9 @@ export default defineConfig({
   },
   build: {
     lib: {
-      entry: './src/main.ts',
+      entry: resolve(__dirname, 'src/main.ts'),
       name: 'Rositro',
-      formats: ['es', 'umd']
+      formats: ['es', 'cjs', 'iife']
     }
   }
 })
