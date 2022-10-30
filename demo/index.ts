@@ -1,3 +1,3 @@
 import Rositro from '../src/main'
 
-Rositro().start()
+console.log(Rositro().start())
