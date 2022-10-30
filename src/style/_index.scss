@@ -1,2 +1,70 @@
 @use './mixins';
-@use './variables';
+@use './variables'as *;
+
+
+.rositro-tooltip {
+  position: absolute;
+  transition: all 0.25s linear;
+
+  .tooltip-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    position: absolute;
+    width: 220px;
+    padding: 0 4px 4px;
+    // min-height: 240px;
+    background-color: #fff;
+    left: 0;
+    top: calc(100% + 10px);
+    border-radius: $radius;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.18);
+
+    .tooltip-elemenet-header {
+      height: 36px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      span {
+        font-weight: 600;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      button {
+        padding: 4px 8px;
+        white-space: nowrap;
+        outline: none;
+        border: none;
+        color: rgb(150, 150, 150);
+        font-weight: 600;
+        font-size: 16px;
+        background-color: transparent;
+        cursor: pointer;
+      }
+    }
+
+    .tooltip-elemenet-context {
+      padding: 2px 4px;
+      font-size: 14px;
+    }
+
+    .tooltip-elemenet-progress {
+      padding: 8px;
+      color: rgb(203, 203, 203);
+    }
+
+    .tooltip-elemenet-footer {
+      display: flex;
+      justify-content: space-between;
+      height: 36px;
+
+      button {
+        cursor: pointer;
+      }
+    }
+  }
+}
