@@ -19,7 +19,7 @@ Rositro().start()
 
 ````html
 <div>
-	<button data-step="1" data-content="这里是指引内容">这里是第一步</button>
+  <button data-step="1" data-content="这里是指引内容">这里是第一步</button>
   <h1 data-step="2">hello Rositro!</h1>
   <button data-step="3" data-title="这里是指引标题">这里是第三步</button>
 </div>
