@@ -4,7 +4,7 @@ import { resolve } from 'path'
 export default defineConfig({
   server: {
     port: 8089,
-    open: true,
+    open: true
   },
   resolve: {
     alias: {
